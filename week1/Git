@@ -21,4 +21,9 @@
 - 下方的 Initialize this repository with a README file ( README 是這個程式庫工具內的功能及使用方式的說明紀錄 )
 - 點 Creste repository，建立程式庫成功
 
+上傳專案
 
+- 先用 git status 檢查檔案狀態
+- 用 git add 加入資料夾中
+- git commit -m "備註"
+- git push origin main 上傳到Github
