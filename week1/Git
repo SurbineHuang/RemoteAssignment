@@ -1,3 +1,24 @@
-02
+1. Here are a few git and GitHub commands we usually use in software development, please explain the meanings and use cases of them.
 
-03
+- git status : 檢查檔案的狀態，例：在編輯檔案或加入資料夾後，用 git status 查詢狀態
+- git add : 將指定資料夾或檔案加入版本，例：把完成的檔案加入資料夾中
+- git commit :  提交指令，例：把資料夾放進本地端的資料庫
+- git log : 查看之前的 commit 紀錄，例：查看本地端資料庫有哪些資料夾
+- git push [ Repo_name ] [ Branch_name ] : 發佈到遠端指定的分支，例：把資料庫裡面尚未複製的東西，複製到遠端的另一個資料庫
+- git remote -v : 檢視遠端的資訊，例：查看有哪些遠端資料夾
+- git branch : 建立分支，例：把資料庫分類
+- fork : 把別人專案的遠端儲存庫內容複製到自己的遠端儲存庫，例：把別人的倉庫複製一份到本地端
+
+2. Please describe how to establish a github repo and how to upload the local projects to github. Try to explain it as detail as possible.
+
+建立程式庫
+
+- 註冊 GitHub
+- 登入後點選你的登入後點選「 Your profile 」
+- 點進「 Repositories 」，點擊右邊的「 New 」來建立一個新儲存庫
+- 進入 Create a new repository 書面輸入資料：Owner 使用者名稱、Repository name 程式庫名稱、Description 程式庫描述
+- 選擇 Public 公開免費
+- 下方的 Initialize this repository with a README file ( README 是這個程式庫工具內的功能及使用方式的說明紀錄 )
+- 點 Creste repository，建立程式庫成功
+
+
