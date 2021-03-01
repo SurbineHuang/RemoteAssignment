@@ -31,4 +31,40 @@ for friend in myFriends {
 
 //==== 6 ====
 
+//全部只有四個朋友，沒有第五個
+
+//==== 7 ====
+
+var firstfriend = myFriends[0]
+print(firstfriend)
+
+//==== 8 ====
+
+var lastfriend = myFriends[3]
+print(lastfriend)
+
+//==== 9 ====
+
+var myCountryNumber = [String: Int]()
+
+//==== 10 ====
+
+myCountryNumber = ["US": 1, "GB": 44, "JP": 81]
+
+//==== 11 ====
+
+myCountryNumber.updateValue(0, forKey: "GB")
+
+//==== 12 ====
+
+// [Aws]
+// [:]
+
+//==== 13 ====
+
+//使用removeValue(forKey: )
+myCountryNumber.removeValue(forKey: "US")
+print(myCountryNumber)
+ 
+
 
