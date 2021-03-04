@@ -17,7 +17,7 @@ myFriends.append("Kevin")
 //==== 3 ====
 
 myFriends.append("Michael")
-
+print(myFriends)
 //==== 4 ====
 
 myFriends.remove(at: 2)
@@ -38,9 +38,10 @@ for friend in myFriends {
 var firstfriend = myFriends[0]
 print(firstfriend)
 
+
 //==== 8 ====
 
-var lastfriend = myFriends[3]
+var lastfriend = myFriends.last
 print(lastfriend)
 
 //==== 9 ====

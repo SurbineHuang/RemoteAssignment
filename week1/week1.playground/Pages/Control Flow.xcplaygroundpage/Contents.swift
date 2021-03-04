@@ -16,8 +16,13 @@ print("----------")
 
 //==== 2 ====
 
-for i in 3...5 {
+for i in lottoNumbers.reversed(){
+    print(i)
+}
+
+for i in (3...5).reversed() {
     print("i: \(i*2)")
+    
     
 //    let element = lottoNumbers[i]
 //    print("element: \(element)")
@@ -27,22 +32,37 @@ print("----------")
 
 //==== 3 ====
 
-var i = 3
-while (i <= 5) {
-    print(i*2)
-    i += 1
+var n = 5
+while (n <= 10) {
+    print(n)
+    n += 1
+}
+print("==3")
+var i = 5
+while (i >= 3 ) {
+    print(i * 2)
+    i -= 1
 }
 
 print("----------")
 
 //==== 4 ====
 
-var number = 3
+var m = 5
+repeat {
+    print("m: \(m)")
+    m += 1
+    
+}
+while m < 11
+print("==4")
+var number = 5
 repeat {
     print("number: \(number*2)")
-    number += 1
+    number -= 1
     
-} while number < 6
+}
+while number >= 3
 
 print("----------")
 
@@ -72,15 +92,24 @@ print("----------")
 
 //==== 7 ====
 
-var jobLevel = [1: "Member", 2: "Team Leader", 3: "Manager", 4: "Director"]
-
-let result = jobLevel[0]
-print("result: \(result)")
 
 
-if (result == nil) {
+
+var jobLevel: Int = 1
+
+switch jobLevel {
+case 1:
+    print("Member")
+case 2:
+    print("Team Leader")
+case 3:
+    print("Manager")
+case 4:
+    print("Director")
+default:
     print("we don't have this job.")
 }
+
 
 print("----------")
 
