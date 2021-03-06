@@ -81,7 +81,8 @@ zoo.weeklyHot = horse
 
 //=== 5 ===
 
-
+//instance method 實體方法 : 需要先生成一個特定型別（類別、結構、列舉）的實體，才能使用這個 instance method
+//type method 型別方法：屬於特定型別（類別、結構、列舉）本身的方法
 
 //=== 6 ===
 
@@ -89,7 +90,7 @@ zoo.weeklyHot = horse
 
 //=== 7 ===
 
-
+//self : 用來代表實體本身
 
 
 //=== 8 ===
@@ -100,3 +101,4 @@ zoo.weeklyHot = horse
 
 
 
+ 
