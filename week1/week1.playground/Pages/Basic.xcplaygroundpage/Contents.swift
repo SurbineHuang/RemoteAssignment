@@ -75,7 +75,7 @@ let chiuPingHuang = "pig"
 let number: Int = 4
 let string: String = "Hello, world"
 let array: [Int] = [1, 2, 3]
-let divtionary: [String: String] = ["key": "value"]
+let dictionary: [String: String] = ["key": "value"]
 
 //==== 11 ====
 
